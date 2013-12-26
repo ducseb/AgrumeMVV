@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="main_autorefreshCheck"
+        android:summary="@string/pref_description_autoRefresh"
+        android:title="@string/pref_title_autoRefresh" />
+<EditTextPreference        
+        android:defaultValue="@string/pref_default_cheminFichier"
+        android:summary="@string/pref_description_cheminFichier"
+        android:inputType="textCapWords"
+        android:key="general_dossierSave"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_cheminFichier" />
+   
+
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agrume MVV</string>
+    <string name="title_section2">Historique</string>
+    <string name="title_section1">Nouveaux</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Paramêtres</string>
+     <string name="menu_tuto">Comment ca marche ?</string>
+    <string name="menu_emptyDb">Vider la base</string>
+    <string name="menu_refreshMessage">Actualiser la liste</string>
+    <string name="menu_hautParleur">Activer haut-parleur</string>
+    
+   
+      <string name="info_tuto">Pour commencer à utiliser l\'application il faut d \'abord activer l\'envoi des messages vocaux sur votre boite e-mail.\r\n\r\n Pour plus d\'informations appuyer sur "Informations détaillées"</string>
+    
+</resources>

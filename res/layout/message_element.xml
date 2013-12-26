@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:id="@+id/blocCheck"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="4dp">
+
+            <LinearLayout
+                android:id="@+id/message_element_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                 android:onClick="buttonPlayMessage">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="260dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="7.15"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/message_element_nomcontact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sébastien De Marchi"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/message_element_typecontact"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="mobile"
+                            android:textColor="@android:color/black"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/message_element_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:layout_marginRight="10dp"
+                            android:text="12/11/2012"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/message_element_duree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:layout_marginRight="10dp"
+                            android:text="2 min 26s" />
+                    </LinearLayout>
+
+                 
+                </LinearLayout>
+                
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
